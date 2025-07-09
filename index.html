@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="flex justify-between items-center p-4 bg-purple-200 text-black">
-        <div class="flex space-x-4 ml-[130px]">
+    <div class="md:flex justify-between items-center p-4 bg-purple-200 text-black space-y-4">
+        <div class="flex space-x-4 ml-[70px] md:ml-[130px]">
             <img src="./3dc841f3-681c-4246-aec5-04881499cf62.svg" alt="" class="h-3 mt-2">
             <div class="h-8 w-[1px] bg-stone-400"></div>
             <img src="./9f418ac1-f743-4606-bf0f-d14f1e9f6ce4.svg" alt="" class="h-3 mt-2">
@@ -19,16 +19,16 @@
             <div class="h-8 w-[1px] bg-stone-400"></div>
             <img src="./cfae3ceb-d3f3-4d4f-95d0-526ee1cda1ea.svg" alt="" class="h-3 mt-2">
         </div>
-        <div class="flex space-x-4 mr-[130px] mt-[-15px]">
-            <h2>Online Services</h2>
+        <div class="flex space-x-4 ml-20 md:mr-[130px] md:mt-[-50px]">
             <h2>Publications</h2>
+            <h2>Online Services</h2>
         </div>
     </div>
 
-    <div class="bg-white-500 mt-8 flex justify-between mb-[75px]">
-        <img src="./image.png" alt="" class="w-[180px] h-[100px] ml-[130px] mt-2">
-        <div class="flex space-x-4 mr-[130px] mt-[50px]">
-            <div class="flex space-x-4">
+    <div class="bg-white-500 mt-8 flex justify-between">
+        <img src="./image.png" alt="" class="w-[180px] h-[100px] ml-[20px] mt-2">
+        <div class="md:flex space-x-4 mr-[130px] mt-[50px] md:mt-[200px] hidden">
+            <div class="flex space-x-4 md:mt-[-150px]">
                 <div>
                     <img src="./6703716a-2360-4e0e-ab51-ed8e85e23b6b.svg" alt="" class="w-6 h-6">
                 </div>
@@ -37,8 +37,8 @@
                     <h2 class="text-black ">Toll free lines</h2>
                 </div>
             </div>
-            <div class="h-8 w-[1px] bg-stone-400"></div>
-            <div class="flex space-x-4">
+            <div class="h-8 w-[1px] bg-stone-400 md:mt-[-150px]"></div>
+            <div class="flex space-x-4 md:mt-[-150px]">
                 <div>
                     <img src="./4c8c36ad-553a-43ea-bc7e-95e6fc56aea2.svg" alt="" class="w-6 h-6">
                 </div>
@@ -50,9 +50,9 @@
         </div>
     </div>
 
-    <div class="relative mb-[150px]">
+    <div class="relative mb-[150px] w-[500px]">
 
-        <div class="bg-blue-800 h-[100px] w-[85%] ml-[130px] mt-8 rounded-xl flex space-x-8 items-center text-white pl-16 absolute top-[-80px]">
+        <div class="bg-blue-800 h-[100px] w-[1200px] ml-[130px] rounded-xl md:flex space-x-8 items-center text-white pl-16 absolute top-[-80px] hidden">
             <h1>HOME</h1>
             <h1>SCHEMES</h1>
             <h1>INVESTMENT</h1>
@@ -62,135 +62,160 @@
             <h1>NEWS & EVENTS</h1>
         </div>
 
-        <div class="bg-cyan-200 h-[600px] w-full mb-[50px]">
-
+        <div class="mb-[50px] h-[600px] bg-[url('./public1.png')] bg-cover bg-center md:bg-none md:flex md:justify-between">
+            <div class="hidden md:flex md:mr-[-1000px] md:ml-[800px]">
+                <img src="./public1.png" alt="">
+            </div>
+            <div class="absolute top-[200px] ml-[20px] md:ml-[150px]">
+                    <h1>Our Health Our Future .</h1>
+                    <h2>Medical</h2>
+                <button class="bg-blue-500 text-white py-4 px-14 rounded mt-8">Learn More</button>
+            </div>
         </div>
 
-        <div class="bg-blue-500 mt-8 ml-20 mb-[50px] absolute bottom-[-120px] flex ml-[300px]">
-            <div class="bg-red-300 h-[180px] w-[220px] border-solid border-stone-400 border-[1px]"></div>
-            <div class="bg-red-300 h-[180px] w-[220px] border-solid border-stone-400 border-[1px]"></div>
-            <div class="bg-red-300 h-[180px] w-[220px] border-solid border-stone-400 border-[1px]"></div>
-            <div class="bg-red-300 h-[180px] w-[220px] border-solid border-stone-400 border-[1px]"></div>
+        <div class="mt-8 ml-20 mb-[50px] absolute bottom-[-120px] flex ml-[20px] md:ml-[350px]">
+            <div class="bg-red-300 h-[220px] w-[250px] border-solid border-stone-400 border-[1px] md:px-8 md:py-4 md:space-y-4">
+                <img src="./megaphone.svg" alt="" class="w-14 h-14">
+                <h1>Member first</h1>
+                <h2 class="md:w-[200px]">13 Million of Rwandans are covered by RSSB services</h2>
+            </div>
+            <div class="bg-red-300 h-[220px] w-[250px] border-solid border-stone-400 border-[1px] px-8 py-4 md:px-8 md:space-y-4">
+                <img src="./megaphone.svg" alt="" class="w-14 h-14">
+                <h1>Experience</h1>
+                <h2 class="md:w-[200px]">60 years of service for your safety and well-being.</h2>
+            </div>
+            <div class="bg-red-300 h-[220px] w-[250px] border-solid border-stone-400 border-[1px] px-8 py-4 md:px-8 md:space-y-4">
+                <img src="./megaphone.svg" alt="" class="w-14 h-14">
+                <h1>Branches</h1>
+                <h2 class="md:w-[200px]">Our services decentralized in 30 branches for your satisfaction</h2>
+            </div>
+            <div class="bg-red-300 h-[220px] w-[250px] border-solid border-stone-400 border-[1px] px-8 py-4 md:px-8 md:space-y-4">
+                <img src="./megaphone.svg" alt="" class="w-14 h-14">
+                <h1>Data driven</h1>
+                <h2 class="md:w-[200px]">Learning from our data to improve the services offered to our members</h2>
+            </div>
         </div>
     
     </div>
 
-    <div class="bg-red-100 h-[500px] w-full mt-[-150px] justify-center items-center flex flex-col">
-        <h1><span class="font-bold text-rose-400">Optimistic and forward-looking
+    <div class="bg-red-100 h-[500px] w-full mt-[-150px] justify-center pl-[20px] flex flex-col md:text-center md:justify-center md:items-center md:h-[300px]">
+        <h1 class="w-[190px] md:w-[400px]"><span class="font-bold text-rose-400">Optimistic and forward-looking
             agent of central government, working to achieve </span>
             <span class="font-bold text-blue-500">the financial security and health of
-            all Rwandans.</h1> </span>
+            all Rwandans.</span></h1>
     </div>
 
-    <div class="mt-8 mb-[150px] flex justify-center items-center flex-col space-y-4">
+    <div class="mt-8 flex justify-center items-center flex-col space-y-4">
         <div class="flex items-center space-x-2 mb-8">
             <div class="bg-red-500 h-[4px] w-8"></div>
             <h1 class="text-blue-900 font-bold">SOCIAL PROTECTION SCHEMES</h1>
         </div>
-        <div class="flex space-x-4">
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
+        <div class="space-y-4 md:flex md:space-x-4 px-4">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center md:mt-[17px]">
                 <img src="./public.svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
                 <h1>PENSION SCHEME</h1>
                 <h2>Retire With Dignity</h2>
             </div>
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center">
                 <img src="./public (1).svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
                 <h1>OCCUPATIONAL HAZARDS</h1>
                 <h2>We aAre Here For You</h2>
             </div>
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
-                <img src="./public (5).svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center">
+                <img src="./public (5).svg" alt="" class="h-[100px] mx-auto my-8">
                 <h1>MEDICAL SCHEME</h1>
                 <h2>Our Health, Our Future</h2>
             </div>
         </div>
-        <div class="flex space-x-4">
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
-                <img src="./public (4).svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
+        <div class="space-y-4 md:flex md:space-x-4 px-4">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center md:mt-[17px]">
+                <img src="./public (4).svg" alt="" class="h-[100px] mx-auto my-8">
                 <h1>CBHI SCHEME</h1>
-                <h2>Our Health, Our Future</h2>
+                <h2>Giving You Happiness At Best Rate</h2>
             </div>
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
-                <img src="./public (3).svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center">
+                <img src="./public (3).svg" alt="" class="h-[100px] mx-auto my-8">
                 <h1>EJOHEZA</h1>
                 <h2>Start Early And Reap The Rewards</h2>
             </div>
-            <div class="flex-col bg-pink-100 h-[300px] w-[400px] rounded-lg p-4 text-center">
-                <img src="./public (2).svg" alt="" class="w-[100px] h-[100px] mx-auto my-8">
+            <div class="flex-col bg-pink-100 h-[300px] w-[370px] rounded-lg p-4 text-center">
+                <img src="./public (2).svg" alt="" class="h-[100px] mx-auto my-8">
                 <h1>MATERNITY LEAVE</h1>
-                <h2>Enjoy Your Maternity Leave With Your Full Salary</h2>
+                <h2">Enjoy Your Maternity Leave With Your Full Salary</h2>
             </div>
         </div>
     </div>
 
-    <div class="flex justify-between items-center h-[300px] mt-[300px] mb-[150px] pl-[150px]">
+    <div class="md:flex justify-between items-center h-[300px] mt-[200px] mb-[150px] md:ml-[180px]">
         <div class="flex flex-col space-y-4">
             <h1>Never miss your <br> contributions again</h1>
-            <h2>Imisanzu revolutionizes the way you manage your social <br>
-                security contributions. Access your information anytime, <br>
-                anywhere with ease and security. Enjoy convenience and <br>
-                transparency. Take control of your future and join Imisanzu <br>
+            <h2 class="w-[300px] md:w-[450px]">Imisanzu revolutionizes the way you manage your social
+                security contributions. Access your information anytime,
+                anywhere with ease and security. Enjoy convenience and
+                transparency. Take control of your future and join Imisanzu
                 today.</h2>
-            <button class="bg-blue-500 text-white py-4 px-16 rounded">Get Started</button>
+            <div>
+                <button class="bg-blue-500 text-white py-4 px-16 rounded mt-8 md:px-10">Get Started</button>
+            </div>
         </div>
         <div>
-            <img src="./public.jpeg" alt="" class="w-[750px] h-[650px] rounded-2xl shadow-xl">
+            <img src="./public.jpeg" alt="" class="w-[370px] h-[250px] rounded-2xl shadow-xl md:w-[750px] md:h-[600px]">
         </div>
     </div>
 
-    <div class="mt-[300px] bg-blue-500 flex-col justify-center items-center space-y-10 pl-[150px]">
-        <div class="flex flex-col space-y-4">
+    <div class="mt-[350px] bg-blue-500 flex-col justify-center items-center space-y-10 pl-[20px]">
+        <div class="flex flex-col space-y-4 md:ml-[180px]">
             <h1 class="text-blue-900 font-extrabold text-lg">Digital transformation</h1>
-            <h2>A major focus for RSSB going into 2025 is to transform into a member <br>
-                first, data driven, high performing organization and a big part of that is to <br>
+            <h2 class="w-[230px] md:w-[500px]">A major focus for RSSB going into 2025 is to transform into a member
+                first, data driven, high performing organization and a big part of that is to
                 complete its shift to digital. </h2>
         </div>
-        <div class="flex space-x-4">
+        <div class="md:flex md:space-x-14 md:ml-[180px]">
             <div class="flex flex-col space-y-4">
                 <img src="./megaphone.svg" alt="" class="w-14 h-14">
                 <h1 class="text-blue-900 font-extrabold">Changing from Legacy processes <br> and systems</h1>
-                <h2>As we enter a new era of technology <br>
-                    advances and data-driven business models, <br>
-                    we are upgrading our systems and <br>
-                    processes to gain in operational efficiency, <br>
-                    address technology constraints, meet <br>
-                    members experience expectations and <br>
-                    support adoption and integration with <br>
+                <h2 class="w-[280px] md:w-[320px]">As we enter a new era of technology
+                    advances and data-driven business models,
+                    we are upgrading our systems and
+                    processes to gain in operational efficiency,
+                    address technology constraints, meet
+                    members experience expectations and
+                    support adoption and integration with
                     other systems.</h2>
             </div>
             <div class="flex flex-col space-y-4">
                 <img src="./megaphone.svg" alt="" class="w-14 h-14">
                 <h1 class="text-blue-900 font-extrabold">Non-paper based processes</h1>
-                <h2>We are moving away from the time-taking <br>
-                    processes as we process large number of <br>
-                    member's claims. Members and partners <br>
-                    will be enjoying the benefits such as timely <br>
-                    and faster responses and reimbursements <br>
-                    for their claims by reducing the time taken <br>
+                <h2 class="w-[280px] md:w-[320px]">We are moving away from the time-taking
+                    processes as we process large number of
+                    member's claims. Members and partners
+                    will be enjoying the benefits such as timely
+                    and faster responses and reimbursements
+                    for their claims by reducing the time taken
                     for processes to be completed.</h2>
             </div>
             <div class="flex flex-col space-y-4">
                 <img src="./megaphone.svg" alt="" class="w-14 h-14">
                 <h1 class="text-blue-900 font-extrabold">Ensure the compliance rate in <br> mandatory contributions</h1>
-                <h2>Digital-led compliance for private and <br>
-                    public institutions to ensure the compliance <br>
-                    and fraud monitoring. Our members will <br>
-                    have a seamless and transparent access of <br>
-                    their contributions/benefits via intelligent <br>
+                <h2 class="w-[280px] md:w-[320px]">Digital-led compliance for private and
+                    public institutions to ensure the compliance
+                    and fraud monitoring. Our members will
+                    have a seamless and transparent access of
+                    their contributions/benefits via intelligent
                     systems and notification ecosystem.</h2>
             </div>
         </div>
-        <div class="flex flex-col space-y-4 mb-8 pt-[20px] border-l-2 border-red-900 pl-[50px]">
-            <h1>“We have ambitious plans to transform RSSB, by 2025, into an <br>
-                organisation that is not just fully committed to delivering for our <br>
-                members but that puts members at the heart of all our planning and <br>
-                all our decision-making. Our vision is for RSSB to use all of its power <br>
-                and energy on behalf of our members: to be best-in-class in serving <br>
-                their interests, as a friend and source of help, as a modern, efficient <br>
-                organisation, with user-friendly, enabling technology; as a source of <br>
-                input to Government thinking; as a national and international thought-<br>
-                leader in social policy; as the leading strategic investor in our chosen <br>
-                markets; and as a prudent but ambitious business partner."</h1>
+        <div class="flex flex-col space-y-4 mb-8 pt-[50px] border-l-2 border-red-900 pl-[30px] md:ml-[180px]">
+            <h1 class="w-[260px] md:w-[500px]">“We have ambitious plans to transform RSSB, by 2025, into an
+                organisation that is not just fully committed to delivering for our
+                members but that puts members at the heart of all our planning and
+                all our decision-making. Our vision is for RSSB to use all of its power
+                and energy on behalf of our members: to be best-in-class in serving
+                their interests, as a friend and source of help, as a modern, efficient
+                organisation, with user-friendly, enabling technology; as a source of
+                input to Government thinking; as a national and international thought-
+                leader in social policy; as the leading strategic investor in our chosen
+                markets; and as a prudent but ambitious business partner."
             <div class="flex items-center space-x-4 mt-8">
                 <img src="./Regis.jpeg" alt="" class="w-[80px] h-[80px] rounded-full">
                 <div class="flex flex-col">
@@ -203,13 +228,13 @@
 
 
     <!-- News and events -->
-    <div class="mt-8 mb-[150px] flex justify-center items-center flex-col space-y-4">
-        <div class="flex items-center space-x-2 mb-8">
+    <div class="mt-8 mb-[150px] md:flex justify-center items-center flex-col space-y-4">
+        <div class="flex ml-[50px] items-center mb-8">
             <div class="bg-red-500 h-[4px] w-8"></div>
             <h1 class="text-blue-900 font-bold">NEWS & EVENTS</h1>
         </div>
-        <div class="flex space-x-4">
-            <div class="flex-col bg-pink-100 h-[500px] w-[400px] rounded-lg text-left space-y-4">
+        <div class="md:flex space-y-10">
+            <div class="flex-col bg-pink-100 h-[500px] w-[400px] rounded-lg text-left space-y-4 md:mt-[40px]">
                 <img src="./image1.jpeg" alt="" class="mx-auto">
                 <div class="px-4 space-y-4">
                     <P>7 months ago</P>
@@ -223,7 +248,7 @@
                 </div>
             </div>
             <div class="flex-col bg-pink-100 h-[500px] w-[400px] rounded-lg text-left space-y-4">
-                <img src="./image2.jpeg" alt="" class="mx-auto h-[265px]">
+                <img src="./image2.jpeg" alt="" class="mx-auto h-[267px]">
                 <div class="px-4 space-y-4">
                     <P>a year ago</P>
                     <h1>RSSB champions youth basketball in <br> EjoHeza Tournament....</h1>
@@ -250,7 +275,7 @@
     </div>
 
      <!-- view more -->
-    <div class="md:ml-[680px] mt-16 border-solid border-2 border-blue-900 w-[210px] rounded-md text-center ml-[80px] mt-[500px]">
+    <div class="md:ml-[680px] mt-16 border-solid border-2 border-blue-900 w-[210px] rounded-md text-center ml-[80px] mt-[180px]">
         <button type="button"
             class="rounded-md text-blue-800 font-bold py-4 px-16 hover:bg-blue-900 hover:text-white whitespace-nowrap">
             View More</button>
